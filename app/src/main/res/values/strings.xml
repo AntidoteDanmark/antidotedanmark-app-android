@@ -46,7 +46,7 @@
     <string name="title_activity_about">Antidote Danmark</string>
     <string name="antidote_danmark_logo_cross">Antidote Danmark Logo Cross</string>
     <string name="aboutText">Antidote Danmark\&#39;s mission er, at nedsætte den alt for store dødelighed blandt stofbrugere i Danmark via uddannelse og udbredelse af modgift.</string>
-    <string name="aboutCredits">Grundlægger og ide: Michael Lodberg Olsen\nDesign og udvikling: Pernille Kjær Aagaard\nDesign og udvikling: Simon Rosted</string>
+    <string name="aboutCredits">Design og udvikling: Pernille Kjær Aagaard\nDesign og udvikling: Simon Rosted</string>
 
     <!-- FirstAidVideo -->
     <string name="title_activity_youtube">Video Guide</string>
