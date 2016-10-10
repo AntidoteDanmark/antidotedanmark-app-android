@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent_material_light_1">#EFBC00</color>
+    <color name="primary_dark_material_light">#616161</color>
+    <color name="primary_material_light">#9e9e9e</color>
+    <color name="primary_dark_material_dark">#1a1a1a</color>
+    <color name="background_material_dark">@color/material_grey_800</color>
+    <color name="background_material_darker">@color/material_grey_900</color>
+    <color name="primary_material_dark">#000000</color>
+    <color name="accent_material_dark">#EFBC00</color>
+    <color name="accent_material_light">#EFBC00</color>
+    <color name="primary">#9e9e9e</color>
+    <color name="primary_dark">#616161</color>
+    <color name="primary_light">#FFCDD2</color>
+    <color name="accent">#9E9E9E</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#616161</color>
+    <color name="selector">#1A727272</color>
+    <color name="selector_negative">#1AF44336</color>
+    <color name="button_yellow">#EFBC00</color>
+</resources>

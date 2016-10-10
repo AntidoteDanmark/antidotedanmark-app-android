@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppCompat.Antidote" parent="Theme.AppCompat.Light">
+        <item name="colorPrimaryDark">@color/primary_dark_material_dark</item>
+        <item name="colorPrimary">@color/primary_material_dark</item>
+        <item name="colorAccent">@color/accent_material_dark</item>
+    </style>
+
+    <style name="ColoredButton" parent="Widget.AppCompat.Button.Colored">
+        <!-- <item name="android:background">@color/button_yellow</item> -->
+        <item name="colorButtonNormal">@color/button_yellow</item>
+        <item name="colorAccent">@color/accent_material_dark</item>
+        <item name="buttonTint">@color/accent_material_dark</item>
+    </style>
+
+</resources>

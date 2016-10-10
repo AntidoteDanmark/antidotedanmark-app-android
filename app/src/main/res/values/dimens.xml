@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <item name="text_line_spacing" format="float" type="dimen">1.4</item>
+</resources>
