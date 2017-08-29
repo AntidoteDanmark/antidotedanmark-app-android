@@ -8,7 +8,7 @@ import android.view.View;
 
 public class About extends AppCompatActivity {
 
-    private final String mUri = "http://www.antidotedanmark.dk";
+    private final String mUri = "http://www.antidote.dk";
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

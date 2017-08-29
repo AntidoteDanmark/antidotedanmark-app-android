@@ -1,5 +1,6 @@
 package dk.antidotedanmark;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.heinrichreimersoftware.materialintro.app.IntroActivity;
@@ -19,7 +20,7 @@ public class FirstAidGuide extends IntroActivity {
         setSkipEnabled(false);
 
         /* Enable/disable finish button */
-        setFinishEnabled(false);
+        setFinishEnabled(true);
 
 
         addSlide(new FragmentSlide.Builder()

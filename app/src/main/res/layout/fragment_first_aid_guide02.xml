@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/first_aid_guide_fragment02"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -64,7 +64,7 @@
                 android:gravity="top"
                 android:orientation="horizontal">
 
-                <me.grantland.widget.AutofitTextView
+                <android.support.v7.widget.AppCompatTextView
                     android:id="@+id/first_aid_guide02_title"
                     style="?android:textAppearanceLarge"
                     android:layout_width="match_parent"
@@ -77,9 +77,9 @@
                     android:textSize="@dimen/abc_text_size_headline_material"
                     android:textStyle="bold"
                     android:maxLines="1"
-                    autofit:minTextSize="14sp" />
+                    app:autoSizeTextType="uniform" />
 
-                <me.grantland.widget.AutofitTextView
+                <android.support.v7.widget.AppCompatTextView
                     android:id="@+id/first_aid_guide02_number"
                     style="?android:textAppearanceLarge"
                     android:layout_width="100dp"
@@ -90,7 +90,7 @@
                     android:textColor="@color/primary"
                     android:textSize="@dimen/abc_text_size_headline_material"
                     android:maxLines="1"
-                    autofit:minTextSize="14sp" />
+                    app:autoSizeTextType="none" />
             </LinearLayout>
 
             <LinearLayout
@@ -99,7 +99,7 @@
                 android:orientation="vertical"
                 android:paddingTop="@dimen/activity_vertical_margin">
 
-                <me.grantland.widget.AutofitTextView
+                <android.support.v7.widget.AppCompatTextView
                     android:id="@+id/first_aid_guide02_description01"
                     style="?android:textAppearanceMedium"
                     android:layout_width="match_parent"
@@ -109,10 +109,10 @@
                     android:text="@string/first_aid_guide02_description01"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/abc_text_size_medium_material"
-                    android:maxLines="2"
-                    autofit:minTextSize="14sp" />
+                    android:maxLines="1"
+                    app:autoSizeTextType="uniform" />
 
-                <me.grantland.widget.AutofitTextView
+                <android.support.v7.widget.AppCompatTextView
                     android:id="@+id/first_aid_guide02_description02"
                     style="?android:textAppearanceMedium"
                     android:layout_width="match_parent"
@@ -122,10 +122,10 @@
                     android:text="@string/first_aid_guide02_description02"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/abc_text_size_medium_material"
-                    android:maxLines="2"
-                    autofit:minTextSize="14sp" />
+                    android:maxLines="1"
+                    app:autoSizeTextType="uniform" />
 
-                <me.grantland.widget.AutofitTextView
+                <android.support.v7.widget.AppCompatTextView
                     android:id="@+id/first_aid_guide02_description03"
                     style="?android:textAppearanceMedium"
                     android:layout_width="match_parent"
@@ -135,8 +135,8 @@
                     android:text="@string/first_aid_guide02_description03"
                     android:textColor="#FFFFFF"
                     android:textSize="@dimen/abc_text_size_medium_material"
-                    android:maxLines="2"
-                    autofit:minTextSize="14sp" />
+                    android:maxLines="1"
+                    app:autoSizeTextType="uniform" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
